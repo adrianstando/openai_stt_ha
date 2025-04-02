@@ -1,10 +1,10 @@
 {
   "domain": "openai_stt",
-  "name": "OpenAI Wisper API",
-  "codeowners": ["@einToast"],
-  "documentation": "https://github.com/einToast/openai_stt_ha",
+  "name": "OpenAI STT API",
+  "codeowners": ["@einToast", "@adrianstando"],
+  "documentation": "https://github.com/adrianstando/openai_stt_ha",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/einToast/openai_stt_ha/issues",
+  "issue_tracker": "https://github.com/adrianstando/openai_stt_ha/issues",
   "requirements": ["openai>=1.59.7"],
-  "version": "1.0.1"
+  "version": "1.0.0"
 }

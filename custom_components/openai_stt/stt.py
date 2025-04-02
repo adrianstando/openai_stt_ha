@@ -39,6 +39,8 @@ DEFAULT_TEMP = 0
 
 SUPPORTED_MODELS = [
     "whisper-1",
+    "gpt-4o-transcribe",
+    "gpt-4o-mini-transcribe",
 ]
 
 SUPPORTED_LANGUAGES = [

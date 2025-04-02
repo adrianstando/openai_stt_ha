@@ -1,6 +1,10 @@
 # OpenAI Speech-To-Text for Home Assistant
 
-This custom component integrates [OpenAI Speech-to-Text](https://platform.openai.com/docs/guides/speech-to-text), also known as Whisper, into Home Assistant via the OpenAI API.
+This custom component integrates [OpenAI Speech-to-Text](https://platform.openai.com/docs/guides/speech-to-text), into Home Assistant via the OpenAI API.
+
+**It is a fork of the original repository!**
+
+This version allows to use other STT models available via the OpenAI API (not only Whisper, but also, e.g. gpt-4o-transcribe and gpt-4o-mini-transcribe).
 
 ## Installation
 
@@ -10,9 +14,9 @@ You can install this integration via [HACS](https://hacs.xyz/).
 
 1. Go to HACS / Integrations / Three-dots menu / Custom repositories
 2. Add:
-   - Repository: `https://github.com/einToast/openai_stt_ha`
+   - Repository: `https://github.com/adrianstando/openai_stt_ha`
    - Category: Integration
-3. Install the "OpenAI Whisper API" integration.
+3. Install the "OpenAI STT API" integration.
 4. Restart Home Assistant.
 
 ### Manual
